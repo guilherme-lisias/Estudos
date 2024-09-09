@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class exemploum {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Informa um número inteiro maior que zero meu nobre: ")
+    int numero = scanner.nextInt();
+
+    if (numero > 0) {
+        for (int i = numero; i != 0; i--) {
+            System.out.printIn(i);
+
+        }
+        scanner.close()
+    }
+}
